@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyTrading.Logging.Serilog", "EnergyTrading.Logging.Serilog\EnergyTrading.Logging.Serilog.csproj", "{BFD69ABB-87A1-4634-B80E-C22CC825C631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnergyTrading.Logging.Serilog.Tests", "EnergyTrading.Logging.Serilog.Tests\EnergyTrading.Logging.Serilog.Tests.csproj", "{9CA2D1D9-9FB2-4FFB-8390-2238E6B0A526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD69ABB-87A1-4634-B80E-C22CC825C631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD69ABB-87A1-4634-B80E-C22CC825C631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD69ABB-87A1-4634-B80E-C22CC825C631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD69ABB-87A1-4634-B80E-C22CC825C631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA2D1D9-9FB2-4FFB-8390-2238E6B0A526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA2D1D9-9FB2-4FFB-8390-2238E6B0A526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA2D1D9-9FB2-4FFB-8390-2238E6B0A526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA2D1D9-9FB2-4FFB-8390-2238E6B0A526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
