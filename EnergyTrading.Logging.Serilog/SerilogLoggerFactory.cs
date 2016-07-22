@@ -9,15 +9,8 @@ namespace EnergyTrading.Logging.Serilog
         private readonly global::Serilog.ILogger _serilogLogger;
         public SerilogLoggerFactory(Func<LoggerConfiguration, LoggerConfiguration> configureFunc)
         {
-            var configuration = new LoggerConfiguration();
-            if (configureFunc != null)
-            {
-                _serilogLogger = configureFunc(configuration).CreateLogger();
-            }
-            else
-            {
-                _serilogLogger = configuration.WriteTo.Console().CreateLogger();
-            }
+            var configuration = new LoggerConfiguration().MinimumLevel.Debug();
+            _serilogLogger = configureFunc != null ? configureFunc(configuration).CreateLogger() : configuration.WriteTo.Console().CreateLogger();
         }
 
         public ILogger GetLogger(string name)
